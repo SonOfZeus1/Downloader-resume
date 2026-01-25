@@ -1,0 +1,21 @@
+2026/01/23-18:05:15.638 36ab01 Reusing MANIFEST /Users/cbz/Desktop/Indeed CV download/chrome_profile/Default/shared_proto_db/MANIFEST-000001
+2026/01/23-18:05:15.638 36ab01 Recovering log #21
+2026/01/23-18:05:15.639 36ab01 Reusing old log /Users/cbz/Desktop/Indeed CV download/chrome_profile/Default/shared_proto_db/000021.log 
+2026/01/23-18:05:28.384 36aafc Level-0 table #25: started
+2026/01/23-18:05:28.388 36aafc Level-0 table #25: 161061 bytes OK
+2026/01/23-18:05:28.390 36aafc Delete type=0 #21
+2026/01/23-18:14:18.168 36aafd Level-0 table #27: started
+2026/01/23-18:14:18.177 36aafd Level-0 table #27: 150597 bytes OK
+2026/01/23-18:14:18.181 36aafd Delete type=0 #24
+2026/01/23-18:23:08.139 36aafd Level-0 table #29: started
+2026/01/23-18:23:08.143 36aafd Level-0 table #29: 186234 bytes OK
+2026/01/23-18:23:08.145 36aafd Delete type=0 #26
+2026/01/23-18:23:08.146 36aafd Compacting 4@0 + 1@1 files
+2026/01/23-18:23:08.149 36aafd Generated table #30@0: 1604 keys, 269976 bytes
+2026/01/23-18:23:08.149 36aafd Compacted 4@0 + 1@1 files => 269976 bytes
+2026/01/23-18:23:08.150 36aafd compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/23-18:23:08.150 36aafd Delete type=2 #29
+2026/01/23-18:23:08.150 36aafd Delete type=2 #22
+2026/01/23-18:23:08.150 36aafd Delete type=2 #27
+2026/01/23-18:23:08.150 36aafd Delete type=2 #25
+2026/01/23-18:23:08.150 36aafd Delete type=2 #19

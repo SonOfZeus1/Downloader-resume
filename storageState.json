@@ -1,0 +1,498 @@
+{
+  "cookies": [
+    {
+      "name": "device",
+      "value": "1d8662663be9a23922f97b6f34e3df0d",
+      "domain": "secure.indeed.com",
+      "path": "/auth",
+      "expires": 1795621208.308169,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "indeed_rcc",
+      "value": "CTK",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1798643347.480344,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.203390732.1764083348",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1771859348,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1674940681.1764083348",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1798646491.302641,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CO",
+      "value": "CA",
+      "domain": "ca.indeed.com",
+      "path": "/",
+      "expires": 1798645159.491226,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "gonetap",
+      "value": "1",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1764171559,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_sp_ses.27f6",
+      "value": "*",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1764086962,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "optimizelySession",
+      "value": "1764085160029",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1779637160,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_sp_id.27f6",
+      "value": "052f6670-d89d-4934-b720-e9b4a31a08db.1764085160.1.1764085162..4ec078b5-b0f4-43df-814e-c932b65963da..ab2fc7da-5f26-473e-94e7-4a5be1a084dd.1764085159990.2",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1798645162.119103,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SURF",
+      "value": "M37XbE8fk0ImmNnB4IFswPMbhh7Xx9RR",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1764690007.307868,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "google_n",
+      "value": "TvTYiTsS2IfpT66k",
+      "domain": "secure.indeed.com",
+      "path": "/",
+      "expires": 1764689962.215075,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "apple_n",
+      "value": "KC6NtDZuzQnJDclS",
+      "domain": "secure.indeed.com",
+      "path": "/",
+      "expires": 1764689962.215091,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "msft_n",
+      "value": "fmPgYEHwUU7ERYTO",
+      "domain": "secure.indeed.com",
+      "path": "/",
+      "expires": 1764689962.215105,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cflb",
+      "value": "0H28v9ueys8DmBCU6XVKET5P25SoAHxqJeCPfT2yv12",
+      "domain": "secure.indeed.com",
+      "path": "/",
+      "expires": 1764167962.215119,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ipqsd",
+      "value": "520381547640016260",
+      "domain": "secure.indeed.com",
+      "path": "/",
+      "expires": 1795621162,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "device_id_1764085163",
+      "value": "cRLt6NxIYu-1764085163",
+      "domain": ".secure.indeed.com",
+      "path": "/",
+      "expires": 1798645163.350962,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SOCK",
+      "value": "\"YKv9ry1GIMkU0avX6qXecP6WY8s=\"",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1766677208.30809,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SHOE",
+      "value": "\"3yr81eg-5xt4wRdlEzbp_gE_m0fhaxWmVjiSROEcGdpladCogRL1PlaPnxtJf_fTcSejQTnwuWjmaVA2D2PeyLDq1HDr108Je3M2Vq-Orwg9rCYmOUH2g-TI6jKCAf_Eyk_vHAf4YW_3iDh6d-A=\"",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1766677208.308117,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "rememberMe",
+      "value": "c0a1e229c8439dc2751323ee6027d3fead452a54562905d9cd3b54f3b7f304d0ac4d04666541c0f34b1c51ec108d56fc52f7d0f78be17d8c23ee3b5c9ec900e367bf75f1df5c9e18",
+      "domain": "secure.indeed.com",
+      "path": "/",
+      "expires": 1771861208.308142,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "jsopfc",
+      "value": "1",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1795621208.308333,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cflb",
+      "value": "02DiuDaSNNGR5eQjgnCNrRgY5YVw6npdrfyPukesKyjUY",
+      "domain": "authentication-session-manager.indeed.com",
+      "path": "/",
+      "expires": 1764168008.923945,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__Secure-PassportAuthProxy-RefreshToken",
+      "value": "LRJUebqOobQ",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1795621209.846727,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__Secure-PassportAuthProxy-OauthExpires",
+      "value": "1764088809",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1795621209.846849,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CO",
+      "value": "CA",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1798645209.846411,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ADOC",
+      "value": "6003806144662761",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1798645209.846479,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "PCA",
+      "value": "71c176b7d0d42f22",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1798645210.539064,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__Secure-PassportAuthProxy-BearerToken",
+      "value": "eyJraWQiOiJjOWVkNzA2NS03Mzg3LTRiOTktYjdhZi1hZDY2OWY3NjE2MGEiLCJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJzdWIiOiJ1c2VyOmZmMjBmZTJmNmU3NDk0OWUiLCJhY3QiOnsic3ViIjoiYXBwOmE5NjYyYWU4ZTI1OTM0OTc3NmFjNTcwYzk0ODUwMGZiY2JlMzYwZmI2YmNmNGNiOGMxODg5MjcwMDA5YjVkZDIiLCJhdXRoZW50aWNhdGVkIjp0cnVlLCJmaXJzdF9wYXJ0eSI6ImVtcGxveWVyQmFja2VuZEZvckZyb250ZW5kLmluZGVlZC5jb20iLCJhcHBfYWNjb3VudCI6ImQwMjk5ZmFmZmY5Mzk2MDgifSwiYXpwIjoiYTk2NjJhZThlMjU5MzQ5Nzc2YWM1NzBjOTQ4NTAwZmJjYmUzNjBmYjZiY2Y0Y2I4YzE4ODkyNzAwMDliNWRkMiIsImF1dGhvcml6YXRpb25fZGV0YWlscyI6W3sidHlwZSI6ImVtcGxveWVyIiwiaWRlbnRpZmllciI6IjUzMTEzNWJhYzgwMDEyZWNjZTE1NWUyODcwZjgzOGI3IiwiYmluYXJ5UGVybWlzc2lvbnMiOiJCczhqUE0velBBL3dQSUR3R01EekNNQmoifV0sInNjb3BlIjoiZW1wbG95ZXIuam9iLm9yZ2FuaWN0cmFmZmljLnJlYWQgam9iX3NlZWtlci5jb21wYW55LmRldGFpbHMucmVhZCBqb2Jfc2Vla2VyLmpvYnMuc2VhcmNoIGVtcGxveWVyX2FjY2VzcyBqb2Jfc2Vla2VyLm1lc3NhZ2luZyBlbXBsb3llci5haV9zY3JlZW5pbmcgZW1wbG95ZXIuYXRzX2NhbmRpZGF0ZS5zeW5jIGVtcGxveWVyLmFkdmVydGlzaW5nLnN1YmFjY291bnQgam9iX3NlZWtlci5hcHBseSBvZmZsaW5lX2FjY2VzcyBqb2Jfc2Vla2VyLnByb2ZpbGUucmVhZCBqb2Jfc2Vla2VyLnJlc3VtZS5yZWFkIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmUuaW5kZWVkLmNvbSIsImVtcCI6IjUzMTEzNWJhYzgwMDEyZWNjZTE1NWUyODcwZjgzOGI3IiwiZXhwIjoxNzY0MDg4ODA5LCJpYXQiOjE3NjQwODUyMDl9.8pX1ggFS9NalqNOtTeuihwmJRDpvxVq-D9f-Lu3a__zPP6QDXU4UMFqG9f9JoCdzn3wIFLG8EpyidijEqeFzqQ",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1795621209.846573,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__Secure-PassportAuthProxy-OauthHMAC",
+      "value": "W2Rkt+LrFHMhcZySE3W8CMIFCYXbtHPi+FEU7PqXWgA=",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1795621209.846799,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "PPID",
+      "value": "eyJraWQiOiJjOWVkNzA2NS03Mzg3LTRiOTktYjdhZi1hZDY2OWY3NjE2MGEiLCJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJzdWIiOiJmZjIwZmUyZjZlNzQ5NDllIiwibGFzdF9hdXRoX3RpbWUiOjE3NjQwODUyMDgwMDAsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV9zY29wZSI6W10sImF1dGgiOiJwdyIsImNyZWF0ZWQiOjE3MDI0MzM0ODMwMDAsImlzcyI6Imh0dHBzOi8vc2VjdXJlLmluZGVlZC5jb20iLCJsYXN0X2F1dGhfbGV2ZWwiOiJTVFJPTkciLCJsb2dfdHMiOjE3NjQwODUyMDk3MzIsImFyYl9hY3B0IjpmYWxzZSwiYXVkIjpbImMxYWI4ZjA0ZiIsImE5NjYyYWU4ZTI1OTM0OTc3NmFjNTcwYzk0ODUwMGZiY2JlMzYwZmI2YmNmNGNiOGMxODg5MjcwMDA5YjVkZDIiXSwicGhvbmVfdmVyaWZpZWQiOnRydWUsImF6cCI6ImMxYWI4ZjA0ZiIsInJlbV9tZSI6ZmFsc2UsInBob25lX251bWJlciI6IisxNDE4NDczNjMzOSIsImV4cCI6MTc2NDA4ODgwOSwiaWF0IjoxNzY0MDg1MjA5LCJlbWFpbCI6ImlseWVzQGNiei10ZWNobm9sb2dpZXMuY29tIn0._aVUOnBU6wv-iLhd3QJ4DqZrlMTlhl6HgxBSc_V7w7i8VgCQI9HlHvtnDGhBQ9AijreFnt8ElaDoS33r7uLz6Q",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1795621209.846892,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "value": "2025-11-25T15:44:00.120Z",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1795621440,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IRF",
+      "value": "yfoyj97BPrfkGSZL-qtieB7Ej3ssCttyOJTTI9ZWlsY=",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1771861581.041747,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CSRF",
+      "value": "73bfd5a6fbc7b97cd28bdf75c57651fd",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cfuvid",
+      "value": "uemLyH_aBVGqQ9XknOKsO8a2fUYES3d4xkhuuj2DIS4-1764085595737-0.0.1.1-604800000",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ENC_CSRF",
+      "value": "WGN4jopbWlBiK9YH6SexwWTgx1utPbUP",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "ExArPFXADExTm6l8jroTYw0gfrEMW1ad0mhFJpHampg-1764085688-1.0.1.1-jyb1vVN9m_g8BR0ZgFWNjhA23uGsYr50GYwpW8F7WQfv4IJay8LZ5y4g4NwLpCDLZVTE5p_K2fR0K5h3DHvhY0vlk8kLegdQJjMMZfaq228",
+      "domain": ".encserv.indeed.com",
+      "path": "/",
+      "expires": 1764087488.112741,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "2MgTNRSyizfYyoO1xyt8U3AzF0NdWCYxlvtHFFy00Tk-1764085688-1.0.1.1-jSoXRSY_0x8bZhAZ2SdoxDpj25UGqll5HycKQFKg8iNog3dgh.HGd7RvkfWTTmdgVwn.CWp3ycraO1EJZkLoDuKPKMy6xlVobfFnik1lSI4",
+      "domain": ".apis.indeed.com",
+      "path": "/",
+      "expires": 1764087488.691884,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CTK",
+      "value": "1jatrm0nckr3q84u",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1798646493.316715,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "docked-messaging-width",
+      "value": "25rem",
+      "domain": "employers.indeed.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "docked-messaging-height",
+      "value": "28.125rem",
+      "domain": "employers.indeed.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "XZ5gszR1OPKp2HF3rMx9NhrDeNX6lmIGOz.BbEfyzJ4-1764086360-1.0.1.1-O0kN0i5IqQQcPPrJxDSc32vjstxhD41tBKP2XiVMDHx1mnGBrBpr8E7H3FXbAPasUmIVDK8vyM7uAxi3GkE4Y2PQvblpP8pm6SQuSwiUClI",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1764088160.816508,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "cf_clearance",
+      "value": ".3EY0TbSl6VP2CXjCQV4l8qx0cF2.b47noDBhKVKYlY-1764086490-1.2.1.1-Axeah7cUKaZKwU6ijl0cSSIHIOPiVDW72TsUlcKDyTkbKDB5HiDvuUX2yj0_wc_fQNkrDaP8IS6Z7GBvpRxWp2PpNoQUVKL6JnwUkH6Tffkeyr0p75zXSopRu8Eoix4c4XaC3bDKCMqyyAg7vdbd9IxxVA0K1D9oQgDU_Yse8xWh9d1OhWSK0mF3WZeg7OnZrmPcVnB0IKzgV7SxqV8DsBeul7lX7cM2xNKyVWv7.ndDZkm.PuS8HJYv1N.N9J2Z",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1795622490.79165,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://indeed.com",
+      "_crHasCrossSiteAncestor": false
+    },
+    {
+      "name": "_dd_s",
+      "value": "aid=1abf7376-8a7d-45a7-bf35-4f4e55ae3b02&rum=2&id=d96bafd3-6933-4819-a84b-e1329d55db6e&created=1764084938560&expire=1764087391222",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1795622491,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isGpcEnabled=0&datestamp=Tue+Nov+25+2025+11%3A01%3A31+GMT-0500+(Eastern+Standard+Time)&version=202507.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=d0d0e168-db5a-4f65-a9af-13fee81b3fdf&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1%2CC0007%3A1&AwaitingReconsent=false&intType=1&geolocation=%3B",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1795622491,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "RQDz2qMlXQRR6qwkOq1PPDCZwRbvGI1CjelaOKi74qo-1764086491-1.0.1.1-yIE0.bcVELxyeoFiENW_2b0YTZDavIMQUU_VZOUJgGwHJ6pIRIp6l0X732fKl36xzMdYM1BvhEzJf3t71EH_95__VxvnXPfOZ6SKXGTEug4",
+      "domain": ".t.indeed.com",
+      "path": "/",
+      "expires": 1764088291.462452,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cfuvid",
+      "value": "dHn_QtuVU6sJ1xzyKuoAKc0WgP.TtpRrJWC_4Rsj1ZE-1764086492796-0.0.1.1-604800000",
+      "domain": ".apis.indeed.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_5KTMMETCF4",
+      "value": "GS2.1.s1764083348$o1$g1$t1764086492$j59$l0$h0",
+      "domain": ".indeed.com",
+      "path": "/",
+      "expires": 1798646492.853847,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://employers.indeed.com",
+      "localStorage": [
+        {
+          "name": "messaging-module-accountModerationBanner",
+          "value": "ALLOW"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"creationTimeMs\":1764083348224},\"expires\":1771859348224}}"
+        },
+        {
+          "name": "oneHostSession",
+          "value": "35a618b38fc714b941fdff8b7b93fd0a/531135bac80012ecce155e2870f838b7"
+        },
+        {
+          "name": "nextPreviousCandidateList",
+          "value": "{\"id\":\"kZW4\",\"list\":[\"84d541feaccd\",\"9a7d6a0ce617\",\"9faaa67534e9\",\"a7ec78699653\",\"978e469174c7\",\"dcb5865c17a1\",\"89a34e9cdf90\",\"950566f9ad65\",\"ceb2c71e9bc8\",\"950536f1ad57\",\"e192df4b7a03\",\"4a0e3187a3cd\",\"d45607a19227\",\"d81b3f2700b5\",\"3bf55e95c5e2\",\"1309f7aa505c\",\"8bcb7b74ac6c\",\"eba474b0f248\",\"3e2f34adb1c5\",\"16a2816402db\"],\"position\":4,\"description\":\"\",\"filterParam\":\"id=9f2fb26537ab&statusName=Reviewed\",\"newCandidateCount\":0,\"showProgressBar\":true,\"descriptionInfo\":\"{\\\"searchQuery\\\":\\\"\\\",\\\"status\\\":{\\\"canonicalName\\\":\\\"Reviewed\\\"},\\\"job\\\":\\\"Administrateur de bases de données (DBA) - Remote\\\"}\",\"findRCPInputs\":\"\"}"
+        }
+      ]
+    },
+    {
+      "origin": "https://challenges.cloudflare.com",
+      "localStorage": [
+        {
+          "name": "cf.turnstile.u",
+          "value": "hGjhLqaGNfx5TYNSOhlj6IRyK8Eg4nmhcAxHPm41eBw-1764085171-1.3.1.1-rYUI_1ec3dmIS.2ZmibwYwMRMc.RIrdAmjuxI3QGtFvasOWtQnNtHMm1.kHIOcVyc03zOiXxtSUxWyLH5m9CDQ"
+        }
+      ]
+    }
+  ]
+}
