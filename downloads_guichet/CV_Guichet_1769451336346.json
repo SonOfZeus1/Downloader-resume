@@ -1,0 +1,9 @@
+{
+  "url": "https://employeur.guichetemplois.gc.ca/employer/jumelage/resume/3468128/3606646",
+  "extractionDate": "2026-01-26T18:15:40.635Z",
+  "fullTitle": "Postulant",
+  "candidateInfoRaw": "Renseignements sur le candidat\nAdresse courriel\ncksamonte@gmail.com\nStatut juridique\nCitoyen canadien / Résident permanent",
+  "email": "cksamonte@gmail.com",
+  "legalStatus": "Citoyen canadien / Résident permanent",
+  "error": "locator.count: SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'following-sibling::table, xpath=following-sibling::*//table' is not a valid XPath expression.\n    at Object.queryAll (<anonymous>:6091:25)\n    at InjectedScript._queryEngineAll (<anonymous>:6789:49)\n    at InjectedScript.querySelectorAll (<anonymous>:6776:30)\n    at eval (eval at evaluate (:290:30), <anonymous>:2:23)\n    at UtilityScript.evaluate (<anonymous>:292:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+}

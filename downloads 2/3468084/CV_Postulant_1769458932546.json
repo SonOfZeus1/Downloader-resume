@@ -1,0 +1,26 @@
+{
+  "url": "https://employeur.guichetemplois.gc.ca/employer/jumelage/resume/3468084/3612653",
+  "extractionDate": "2026-01-26T20:22:12.511Z",
+  "fullTitle": "Postulant",
+  "rawInfo": "Renseignements sur le candidat\nAdresse courriel\ntochamnongn@gmail.com\nStatut juridique\nRésident temporaire",
+  "email": "tochamnongn@gmail.com",
+  "legalStatus": "Résident temporaire",
+  "questions": [
+    {
+      "q": "Questions de présélection choisies",
+      "a": "Réponse"
+    },
+    {
+      "q": "Êtes-vous autorisé à travailler au Canada?",
+      "a": "Oui"
+    },
+    {
+      "q": "Êtes-vous actuellement étudiant(e)?",
+      "a": "Non"
+    },
+    {
+      "q": "Seriez-vous disposé à déménager pour ce poste?",
+      "a": "Non"
+    }
+  ]
+}

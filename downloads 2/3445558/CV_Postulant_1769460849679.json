@@ -1,0 +1,22 @@
+{
+  "url": "https://employeur.guichetemplois.gc.ca/employer/jumelage/resume/3445558/3708009",
+  "extractionDate": "2026-01-26T20:54:09.643Z",
+  "fullTitle": "Postulant",
+  "rawInfo": "Renseignements sur le candidat\nAdresse courriel\nollieware@live.com\nStatut juridique\nCitoyen canadien / Résident permanent",
+  "email": "ollieware@live.com",
+  "legalStatus": "Citoyen canadien / Résident permanent",
+  "questions": [
+    {
+      "q": "Questions de présélection choisies",
+      "a": "Réponse"
+    },
+    {
+      "q": "Êtes-vous autorisé à travailler au Canada?",
+      "a": "Oui"
+    },
+    {
+      "q": "Êtes-vous actuellement étudiant(e)?",
+      "a": "Non"
+    }
+  ]
+}

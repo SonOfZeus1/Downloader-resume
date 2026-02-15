@@ -1,0 +1,22 @@
+{
+  "url": "https://employeur.guichetemplois.gc.ca/employer/jumelage/resume/3445558/3763337",
+  "extractionDate": "2026-01-26T20:58:40.532Z",
+  "fullTitle": "Postulant",
+  "rawInfo": "Renseignements sur le candidat\nAdresse courriel\nkeerthanapm94@gmail.com\nStatut juridique\nCandidat d’Entrée express",
+  "email": "keerthanapm94@gmail.com",
+  "legalStatus": "Candidat d’Entrée express",
+  "questions": [
+    {
+      "q": "Questions de présélection choisies",
+      "a": "Réponse"
+    },
+    {
+      "q": "Êtes-vous autorisé à travailler au Canada?",
+      "a": "Oui"
+    },
+    {
+      "q": "Êtes-vous actuellement étudiant(e)?",
+      "a": "Non"
+    }
+  ]
+}

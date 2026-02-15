@@ -1,0 +1,21 @@
+{
+  "url": "https://employeur.guichetemplois.gc.ca/employer/jumelage/resume/3445558/2013454",
+  "extractionDate": "2026-01-26T20:43:38.387Z",
+  "fullTitle": "Postulant",
+  "rawInfo": "Renseignements sur le candidat\nStatut juridique\nCitoyen canadien / Résident permanent",
+  "legalStatus": "Citoyen canadien / Résident permanent",
+  "questions": [
+    {
+      "q": "Questions de présélection choisies",
+      "a": "Réponse"
+    },
+    {
+      "q": "Êtes-vous autorisé à travailler au Canada?",
+      "a": ""
+    },
+    {
+      "q": "Êtes-vous actuellement étudiant(e)?",
+      "a": ""
+    }
+  ]
+}

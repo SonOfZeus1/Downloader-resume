@@ -1,0 +1,26 @@
+{
+  "url": "https://employeur.guichetemplois.gc.ca/employer/jumelage/resume/3468153/3706245",
+  "extractionDate": "2026-01-26T20:14:58.456Z",
+  "fullTitle": "Postulant",
+  "rawInfo": "Renseignements sur le candidat\nAdresse courriel\nxiaofl31@gmail.com\nStatut juridique\nRésident temporaire",
+  "email": "xiaofl31@gmail.com",
+  "legalStatus": "Résident temporaire",
+  "questions": [
+    {
+      "q": "Questions de présélection choisies",
+      "a": "Réponse"
+    },
+    {
+      "q": "Êtes-vous autorisé à travailler au Canada?",
+      "a": "Non"
+    },
+    {
+      "q": "Êtes-vous actuellement étudiant(e)?",
+      "a": "Non"
+    },
+    {
+      "q": "Seriez-vous disposé à déménager pour ce poste?",
+      "a": "Oui"
+    }
+  ]
+}

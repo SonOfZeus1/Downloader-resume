@@ -1,0 +1,26 @@
+{
+  "url": "https://employeur.guichetemplois.gc.ca/employer/jumelage/resume/3468135/3672225",
+  "extractionDate": "2026-01-26T19:14:46.707Z",
+  "fullTitle": "Postulant",
+  "rawInfo": "Renseignements sur le candidat\nAdresse courriel\nnamanbhoj99@gmail.com\nStatut juridique\nRésident temporaire",
+  "email": "namanbhoj99@gmail.com",
+  "legalStatus": "Résident temporaire",
+  "questions": [
+    {
+      "q": "Questions de présélection choisies",
+      "a": "Réponse"
+    },
+    {
+      "q": "Êtes-vous autorisé à travailler au Canada?",
+      "a": "Oui"
+    },
+    {
+      "q": "Êtes-vous actuellement étudiant(e)?",
+      "a": "Oui"
+    },
+    {
+      "q": "Seriez-vous disposé à déménager pour ce poste?",
+      "a": "Oui"
+    }
+  ]
+}

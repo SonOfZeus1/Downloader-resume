@@ -1,0 +1,26 @@
+{
+  "url": "https://employeur.guichetemplois.gc.ca/employer/jumelage/resume/3468153/3137132",
+  "extractionDate": "2026-01-26T20:03:24.972Z",
+  "fullTitle": "Postulant",
+  "rawInfo": "Renseignements sur le candidat\nAdresse courriel\ncherif.adou@yahoo.fr\nStatut juridique\nRésident temporaire",
+  "email": "cherif.adou@yahoo.fr",
+  "legalStatus": "Résident temporaire",
+  "questions": [
+    {
+      "q": "Questions de présélection choisies",
+      "a": "Réponse"
+    },
+    {
+      "q": "Êtes-vous autorisé à travailler au Canada?",
+      "a": "Oui"
+    },
+    {
+      "q": "Êtes-vous actuellement étudiant(e)?",
+      "a": "Non"
+    },
+    {
+      "q": "Seriez-vous disposé à déménager pour ce poste?",
+      "a": "Oui"
+    }
+  ]
+}

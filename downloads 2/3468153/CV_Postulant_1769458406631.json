@@ -1,0 +1,26 @@
+{
+  "url": "https://employeur.guichetemplois.gc.ca/employer/jumelage/resume/3468153/3550283",
+  "extractionDate": "2026-01-26T20:13:26.595Z",
+  "fullTitle": "Postulant",
+  "rawInfo": "Renseignements sur le candidat\nAdresse courriel\nmarcsaac123@gmail.com\nStatut juridique\nCitoyen canadien / Résident permanent",
+  "email": "marcsaac123@gmail.com",
+  "legalStatus": "Citoyen canadien / Résident permanent",
+  "questions": [
+    {
+      "q": "Questions de présélection choisies",
+      "a": "Réponse"
+    },
+    {
+      "q": "Êtes-vous autorisé à travailler au Canada?",
+      "a": "Oui"
+    },
+    {
+      "q": "Êtes-vous actuellement étudiant(e)?",
+      "a": "Oui"
+    },
+    {
+      "q": "Seriez-vous disposé à déménager pour ce poste?",
+      "a": "Oui"
+    }
+  ]
+}

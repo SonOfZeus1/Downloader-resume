@@ -1,0 +1,22 @@
+{
+  "url": "https://employeur.guichetemplois.gc.ca/employer/jumelage/resume/3445558/3685484",
+  "extractionDate": "2026-01-26T20:52:38.414Z",
+  "fullTitle": "Postulant",
+  "rawInfo": "Renseignements sur le candidat\nAdresse courriel\nomarabdulaziz451@gmail.com\nStatut juridique\nCitoyen canadien / Résident permanent",
+  "email": "omarabdulaziz451@gmail.com",
+  "legalStatus": "Citoyen canadien / Résident permanent",
+  "questions": [
+    {
+      "q": "Questions de présélection choisies",
+      "a": "Réponse"
+    },
+    {
+      "q": "Êtes-vous autorisé à travailler au Canada?",
+      "a": "Oui"
+    },
+    {
+      "q": "Êtes-vous actuellement étudiant(e)?",
+      "a": "Non"
+    }
+  ]
+}

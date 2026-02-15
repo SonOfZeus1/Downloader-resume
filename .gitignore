@@ -1,0 +1,7 @@
+node_modules/
+downloads/
+chrome_profile/
+chrome_profile_guichet/
+storageState.json
+storageStateGuichet.json
+.DS_Store

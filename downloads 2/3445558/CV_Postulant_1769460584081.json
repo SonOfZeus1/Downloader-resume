@@ -1,0 +1,22 @@
+{
+  "url": "https://employeur.guichetemplois.gc.ca/employer/jumelage/resume/3445558/3610169",
+  "extractionDate": "2026-01-26T20:49:44.064Z",
+  "fullTitle": "Postulant",
+  "rawInfo": "Renseignements sur le candidat\nAdresse courriel\njoshuaepenner@gmail.com\nStatut juridique\nCitoyen canadien / Résident permanent",
+  "email": "joshuaepenner@gmail.com",
+  "legalStatus": "Citoyen canadien / Résident permanent",
+  "questions": [
+    {
+      "q": "Questions de présélection choisies",
+      "a": "Réponse"
+    },
+    {
+      "q": "Êtes-vous autorisé à travailler au Canada?",
+      "a": "Oui"
+    },
+    {
+      "q": "Êtes-vous actuellement étudiant(e)?",
+      "a": "Oui"
+    }
+  ]
+}

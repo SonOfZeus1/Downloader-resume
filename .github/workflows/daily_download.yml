@@ -1,0 +1,61 @@
+name: Daily CV Download
+
+on:
+  schedule:
+    # Run every day at 9:00 AM UTC
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Install Playwright Browsers
+      run: npx playwright install --with-deps chromium
+
+    - name: Create storageState.json
+      run: |
+        echo "${{ secrets.STORAGE_STATE }}" > storageState.json
+
+    - name: Run Download Script
+      env:
+        CI: true
+      run: |
+        xvfb-run --auto-servernum --server-args="-screen 0 1280x960x24" npm run download
+
+    - name: Check for changes in urls.txt
+      id: git-check
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add Urls/urls.txt
+        if git diff --staged --quiet; then
+          echo "changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "changes=true" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Commit and Push changes
+      if: steps.git-check.outputs.changes == 'true'
+      run: |
+        git commit -m "Update urls.txt processing status [skip ci]"
+        git push
+
+    - name: Upload Downloaded CVs
+      uses: actions/upload-artifact@v4
+      with:
+        name: downloaded-cvs
+        path: downloads/
+        retention-days: 5

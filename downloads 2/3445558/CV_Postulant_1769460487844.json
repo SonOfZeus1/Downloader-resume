@@ -1,0 +1,22 @@
+{
+  "url": "https://employeur.guichetemplois.gc.ca/employer/jumelage/resume/3445558/3587779",
+  "extractionDate": "2026-01-26T20:48:07.827Z",
+  "fullTitle": "Postulant",
+  "rawInfo": "Renseignements sur le candidat\nAdresse courriel\nhs9792803@gmail.com\nStatut juridique\nRésident temporaire",
+  "email": "hs9792803@gmail.com",
+  "legalStatus": "Résident temporaire",
+  "questions": [
+    {
+      "q": "Questions de présélection choisies",
+      "a": "Réponse"
+    },
+    {
+      "q": "Êtes-vous autorisé à travailler au Canada?",
+      "a": ""
+    },
+    {
+      "q": "Êtes-vous actuellement étudiant(e)?",
+      "a": ""
+    }
+  ]
+}

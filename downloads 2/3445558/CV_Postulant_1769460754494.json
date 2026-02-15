@@ -1,0 +1,22 @@
+{
+  "url": "https://employeur.guichetemplois.gc.ca/employer/jumelage/resume/3445558/3684855",
+  "extractionDate": "2026-01-26T20:52:34.478Z",
+  "fullTitle": "Postulant",
+  "rawInfo": "Renseignements sur le candidat\nAdresse courriel\ndejuanmillon.martin@gmail.com\nStatut juridique\nRésident temporaire",
+  "email": "dejuanmillon.martin@gmail.com",
+  "legalStatus": "Résident temporaire",
+  "questions": [
+    {
+      "q": "Questions de présélection choisies",
+      "a": "Réponse"
+    },
+    {
+      "q": "Êtes-vous autorisé à travailler au Canada?",
+      "a": "Non"
+    },
+    {
+      "q": "Êtes-vous actuellement étudiant(e)?",
+      "a": "Oui"
+    }
+  ]
+}

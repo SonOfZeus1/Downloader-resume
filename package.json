@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "login": "node login.js",
-    "download": "node download.js"
+    "download": "node download.js",
+    "login:guichet": "node login_guichet.js",
+    "download:guichet": "node download_guichet.js"
   },
   "dependencies": {
     "fs-extra": "^11.2.0",

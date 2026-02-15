@@ -19,24 +19,46 @@ async function run() {
         process.exit(1);
     }
 
-    const USER_DATA_DIR = path.join(process.cwd(), 'chrome_profile'); // Same profile as login
+    let context;
+    let page;
 
-    // Use persistent context to share exact session details
-    const context = await chromium.launchPersistentContext(USER_DATA_DIR, {
-        headless: false, // Cloudflare detects headless: true, so we must use false
-        channel: 'chrome',
-        viewport: null,
-        acceptDownloads: true,
-    });
+    if (process.env.CI) {
+        console.log('Running in CI mode...');
+        const browser = await chromium.launch({
+            headless: false, // We will use xvfb-run in CI
+            args: ['--no-sandbox', '--disable-setuid-sandbox']
+        });
 
-    // Reuse existing page if available to avoid opening too many tabs
-    // Persistent context usually has one page open
-    let page = context.pages()[0];
-    if (!page) page = await context.newPage();
+        // In CI, we expect storageState.json to be created from secrets
+        if (!await fs.pathExists(STORAGE_STATE_PATH)) {
+            console.error(`Error: ${STORAGE_STATE_PATH} not found in CI. Make sure to set the secret.`);
+            process.exit(1);
+        }
+
+        context = await browser.newContext({
+            storageState: STORAGE_STATE_PATH,
+            acceptDownloads: true,
+            viewport: { width: 1920, height: 1080 }
+        });
+        page = await context.newPage();
+    } else {
+        // Local mode with persistent profile
+        const USER_DATA_DIR = path.join(process.cwd(), 'chrome_profile');
+        context = await chromium.launchPersistentContext(USER_DATA_DIR, {
+            headless: false,
+            channel: 'chrome',
+            viewport: null,
+            acceptDownloads: true,
+        });
+
+        // Reuse existing page or create new
+        page = context.pages()[0];
+        if (!page) page = await context.newPage();
+    }
 
     // --- CONFIGURATION ---
     // Path to your urls.txt file. 
-    const URLS_FILE_PATH = '/Users/cbz/Desktop/Indeed CV download/Urls/urls.txt';
+    const URLS_FILE_PATH = path.join(process.cwd(), 'Urls', 'urls.txt');
     // ---------------------
 
     if (!await fs.pathExists(URLS_FILE_PATH)) {

@@ -1,0 +1,22 @@
+{
+  "url": "https://employeur.guichetemplois.gc.ca/employer/jumelage/resume/3445558/2896053",
+  "extractionDate": "2026-01-26T20:49:12.693Z",
+  "fullTitle": "Postulant",
+  "rawInfo": "Renseignements sur le candidat\nAdresse courriel\narchangedestine@gmail.com\nStatut juridique\nCandidat d’Entrée express",
+  "email": "archangedestine@gmail.com",
+  "legalStatus": "Candidat d’Entrée express",
+  "questions": [
+    {
+      "q": "Questions de présélection choisies",
+      "a": "Réponse"
+    },
+    {
+      "q": "Êtes-vous autorisé à travailler au Canada?",
+      "a": "Oui"
+    },
+    {
+      "q": "Êtes-vous actuellement étudiant(e)?",
+      "a": "Non"
+    }
+  ]
+}

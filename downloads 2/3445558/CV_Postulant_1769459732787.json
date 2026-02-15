@@ -1,0 +1,22 @@
+{
+  "url": "https://employeur.guichetemplois.gc.ca/employer/jumelage/resume/3445558/3499780",
+  "extractionDate": "2026-01-26T20:35:32.752Z",
+  "fullTitle": "Postulant",
+  "rawInfo": "Renseignements sur le candidat\nAdresse courriel\ncool.muzzy.gmaio.com@gmail.com\nStatut juridique\nRésident temporaire",
+  "email": "cool.muzzy.gmaio.com@gmail.com",
+  "legalStatus": "Résident temporaire",
+  "questions": [
+    {
+      "q": "Questions de présélection choisies",
+      "a": "Réponse"
+    },
+    {
+      "q": "Êtes-vous autorisé à travailler au Canada?",
+      "a": ""
+    },
+    {
+      "q": "Êtes-vous actuellement étudiant(e)?",
+      "a": ""
+    }
+  ]
+}

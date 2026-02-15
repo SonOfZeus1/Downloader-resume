@@ -1,0 +1,22 @@
+{
+  "url": "https://employeur.guichetemplois.gc.ca/employer/jumelage/resume/3445558/3566745",
+  "extractionDate": "2026-01-26T20:47:04.748Z",
+  "fullTitle": "Postulant",
+  "rawInfo": "Renseignements sur le candidat\nAdresse courriel\neljc3201@usherbrooke.ca\nStatut juridique\nRésident temporaire",
+  "email": "eljc3201@usherbrooke.ca",
+  "legalStatus": "Résident temporaire",
+  "questions": [
+    {
+      "q": "Questions de présélection choisies",
+      "a": "Réponse"
+    },
+    {
+      "q": "Êtes-vous autorisé à travailler au Canada?",
+      "a": ""
+    },
+    {
+      "q": "Êtes-vous actuellement étudiant(e)?",
+      "a": ""
+    }
+  ]
+}
