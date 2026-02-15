@@ -27,7 +27,9 @@ jobs:
 
     - name: Create storageState.json
       run: |
-        echo "${{ secrets.STORAGE_STATE }}" > storageState.json
+        cat <<EOF > storageState.json
+        ${{ secrets.STORAGE_STATE }}
+        EOF
 
     - name: Run Download Script
       env:
