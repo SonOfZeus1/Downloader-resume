@@ -45,7 +45,7 @@ async function run() {
                 '--disable-blink-features=AutomationControlled',
                 '--disable-infobars',
                 '--start-maximized',
-                '--user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36'
+                '--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36'
             ]
         });
 
@@ -59,7 +59,7 @@ async function run() {
             storageState: STORAGE_STATE_PATH,
             acceptDownloads: true,
             viewport: { width: 1920, height: 1080 },
-            userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
+            userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
             locale: 'fr-FR',
             timezoneId: 'Europe/Paris'
         });

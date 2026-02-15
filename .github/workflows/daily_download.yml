@@ -8,7 +8,7 @@ on:
 
 jobs:
   download:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
     - name: Checkout code
@@ -39,7 +39,7 @@ jobs:
         # Optional: Add a limit if you want to test quickly, e.g., only process 5 items
         # LIMIT: 5 
       run: |
-        xvfb-run --auto-servernum --server-args="-screen 0 1280x960x24" npm run download
+        npm run download
 
     - name: Commit and Push changes
       if: success() && steps.git-check.outputs.changes == 'true'
