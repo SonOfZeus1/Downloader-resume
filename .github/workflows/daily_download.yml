@@ -26,42 +26,29 @@ jobs:
       run: npx playwright install --with-deps chromium
 
     - name: Create storageState.json
+      env:
+        # We pass the secret as an environment variable to avoid shell parsing issues
+        THE_STATE: ${{ secrets.STORAGE_STATE }}
       run: |
-        cat <<EOF > storageState.json
-        ${{ secrets.STORAGE_STATE }}
-        EOF
+        node -e "const fs = require('fs'); fs.writeFileSync('storageState.json', process.env.THE_STATE);"
 
     - name: Run Download Script
+      timeout-minutes: 15
       env:
         CI: true
+        # Optional: Add a limit if you want to test quickly, e.g., only process 5 items
+        # LIMIT: 5 
       run: |
         xvfb-run --auto-servernum --server-args="-screen 0 1280x960x24" npm run download
 
-    - name: Upload to Google Drive
-      env:
-        GDRIVE_CREDENTIALS: ${{ secrets.GDRIVE_CREDENTIALS }}
-        GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
-      run: node upload_to_drive.js
-
-    - name: Check for changes in urls.txt
-      id: git-check
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add Urls/urls.txt
-        if git diff --staged --quiet; then
-          echo "changes=false" >> $GITHUB_OUTPUT
-        else
-          echo "changes=true" >> $GITHUB_OUTPUT
-        fi
-
     - name: Commit and Push changes
-      if: steps.git-check.outputs.changes == 'true'
+      if: success() && steps.git-check.outputs.changes == 'true'
       run: |
         git commit -m "Update urls.txt processing status [skip ci]"
         git push
 
     - name: Upload Downloaded CVs
+      if: always() # Run this even if the download script fails or times out
       uses: actions/upload-artifact@v4
       with:
         name: downloaded-cvs
