@@ -13,6 +13,19 @@ async function run() {
     // Ensure downloads directory exists
     await fs.ensureDir(DOWNLOADS_DIR);
 
+    // Helper for random delays
+    const randomDelay = (min = 1000, max = 3000) => new Promise(r => setTimeout(r, Math.floor(Math.random() * (max - min + 1) + min)));
+
+    // Helper to mimic human mouse movement
+    async function humanMove(page) {
+        try {
+            const x = Math.floor(Math.random() * 500) + 100;
+            const y = Math.floor(Math.random() * 500) + 100;
+            await page.mouse.move(x, y, { steps: 10 });
+            await randomDelay(500, 1500);
+        } catch (e) { }
+    }
+
     // Check if storage state exists (we use persistent profile now, but good check)
     if (!await fs.pathExists(STORAGE_STATE_PATH)) {
         console.error(`Error: ${STORAGE_STATE_PATH} not found. Please run 'npm run login' first.`);
@@ -26,7 +39,14 @@ async function run() {
         console.log('Running in CI mode...');
         const browser = await chromium.launch({
             headless: false, // We will use xvfb-run in CI
-            args: ['--no-sandbox', '--disable-setuid-sandbox']
+            args: [
+                '--no-sandbox',
+                '--disable-setuid-sandbox',
+                '--disable-blink-features=AutomationControlled',
+                '--disable-infobars',
+                '--start-maximized',
+                '--user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36'
+            ]
         });
 
         // In CI, we expect storageState.json to be created from secrets
@@ -38,8 +58,19 @@ async function run() {
         context = await browser.newContext({
             storageState: STORAGE_STATE_PATH,
             acceptDownloads: true,
-            viewport: { width: 1920, height: 1080 }
+            viewport: { width: 1920, height: 1080 },
+            userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
+            locale: 'fr-FR',
+            timezoneId: 'Europe/Paris'
         });
+
+        // Add stealth scripts
+        await context.addInitScript(() => {
+            Object.defineProperty(navigator, 'webdriver', {
+                get: () => undefined,
+            });
+        });
+
         page = await context.newPage();
     } else {
         // Local mode with persistent profile
@@ -107,6 +138,35 @@ async function run() {
 
             await page.waitForTimeout(5000);
 
+            // Cloudflare / Challenge Detection
+            const title = await page.title();
+            const content = await page.content();
+            if (title.includes('Just a moment') || content.includes('Verify you are human') || content.includes('challenge-platform')) {
+                console.log('  ⚠️ Detected Cloudflare Challenge!');
+                await page.screenshot({ path: path.join(DOWNLOADS_DIR, `challenge_${Date.now()}.png`) });
+
+                try {
+                    // Try to find the checkbox (iframe usually)
+                    const frame = page.frames().find(f => f.url().includes('challenge'));
+                    if (frame) {
+                        const checkbox = frame.locator('input[type="checkbox"]');
+                        if (await checkbox.isVisible()) {
+                            await randomDelay(1000, 3000);
+                            await humanMove(page);
+                            await checkbox.click();
+                            console.log('  ⚠️ Attempted to click challenge checkbox.');
+                            await page.waitForTimeout(5000);
+                        }
+                    } else {
+                        // Sometimes it's in the main page shadow dom or just a click
+                        const checkbox = page.locator('#challenge-stage input[type="checkbox"]').first();
+                        if (await checkbox.isVisible()) {
+                            await checkbox.click();
+                        }
+                    }
+                } catch (e) { console.log('  Failed to handle challenge:', e.message); }
+            }
+
             // Close chat/popups
             try {
                 const closeChat = page.locator('button[aria-label*="Close"], button[aria-label*="Fermer"], button[aria-label*="Minimize"], [class*="chat"] button[class*="close"]');
@@ -159,6 +219,8 @@ async function run() {
             if (downloadButton) {
                 console.log('  Download button found. Clicking...');
                 await downloadButton.scrollIntoViewIfNeeded();
+                await randomDelay(1000, 2500);
+                await humanMove(page);
 
                 const [download] = await Promise.all([
                     page.waitForEvent('download', { timeout: 60000 }),
